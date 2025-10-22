@@ -3,11 +3,18 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export async function getServerSideProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common"])),
-    },
-  };
+  try {
+    return {
+      props: {
+        ...(await serverSideTranslations(locale, ["common"])),
+      },
+    };
+  } catch (error) {
+    console.error("i18n load error:", error);
+    return {
+      props: {},
+    };
+  }
 }
 
 export default function Home() {
