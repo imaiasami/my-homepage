@@ -1,36 +1,31 @@
-const path = require('path');
+import path from "path";
 
 /**
- * next-i18next configuration optimized for:
- * - Vercel (SSR or SSG both OK)
- * - locale-based routes (/ko, /en, /jp)
- * - consistent JSON path resolution (no 404 for /public/locales)
+ * ✅ next-i18next configuration
+ * 완벽히 Vercel/Next.js 15 환경과 호환되도록 정리됨
  */
-module.exports = {
+const nextI18NextConfig = {
     i18n: {
-        defaultLocale: 'ko',
-        locales: ['ko', 'en', 'jp'],
-        localeDetection: true, // 자동 감지 (브라우저 언어)
+        defaultLocale: "ko",
+        locales: ["ko", "en", "jp"],
+        localeDetection: true, // ✅ boolean literal (문자열 X)
     },
 
     // ✅ public/locales 경로를 절대 경로로 지정 (Vercel/로컬 모두 호환)
-    localePath: path.resolve('./public/locales'),
+    localePath: path.resolve("./public/locales"),
 
     // ✅ 기본 네임스페이스
-    defaultNS: 'common',
+    defaultNS: "common",
 
     // ✅ locale 파일 구조: public/locales/{lng}/{ns}.json
-    localeStructure: '{{lng}}/{{ns}}',
+    localeStructure: "{{lng}}/{{ns}}",
 
-    /**
-     * ✅ localeSubpaths는 Next.js 12 이후 기본 라우팅(i18n.routes)으로 대체됨.
-     *    즉, '/en', '/jp' 등의 prefix는 next.config.js의 i18n 설정이 자동 처리합니다.
-     *    그래서 명시적으로 localeSubpaths를 지정하지 않아도 됩니다.
-     *    단, 과거 버전 호환 목적이라면 아래처럼 주석 처리해두세요.
-     */
+    // ✅ Vercel 및 최신 Next.js 환경에서는 localeSubpaths 필요 없음
     // localeSubpaths: {
-    //   ko: 'ko',
-    //   en: 'en',
-    //   jp: 'jp',
+    //   ko: "ko",
+    //   en: "en",
+    //   jp: "jp",
     // },
 };
+
+export default nextI18NextConfig;
