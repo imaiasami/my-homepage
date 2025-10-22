@@ -1,0 +1,45 @@
+{
+  "home": "홈",
+  "about": "소개",
+  "projects": "프로젝트",
+  "blog": "블로그",
+  "contact": "연락하기",
+
+  "home_title": "안녕하세요 👋",
+  "home_subtitle": "개발자 유동환의 개인 홈페이지입니다.",
+  "home_description": "포트폴리오와 공부 기록을 공유합니다.",
+  "view_projects": "프로젝트 보기",
+  "go_to_blog": "블로그 가기",
+
+  "about_title": "소개",
+  "about_description": "유동환 소개 및 기술 스택",
+  "about_name": "유동환 (YooDonghwan)",
+  "about_intro": "자바/Struts2·MyBatis 중심 백엔드, Next.js 프런트 학습 중. 엑셀·PDF 출력, 이미지 처리 관심. 러닝·생체역학 좋아함.",
+  "about_skills": "기술 스택",
+  "about_skill_1": "• 언어: Java, JavaScript, Python",
+  "about_skill_2": "• 웹: Struts2, MyBatis, Next.js, Tailwind",
+  "about_skill_3": "• 인프라: Tomcat, AWS(기초)",
+  "about_focus": "관심 분야",
+  "about_focus_1": "• 문서 템플릿: Apache POI / iText 기반 엑셀·PDF 자동화",
+  "about_focus_2": "• 이미지/리더: 의료·업무 이미지 처리 파이프라인",
+  "about_focus_3": "• 프런트 전환: JSP → Next.js 마이그레이션 학습",
+
+  "projects_title": "프로젝트",
+  "project_kyusyo_title": "KyusyoWeb (사내)",
+  "project_kyusyo_desc": "Struts2 + MyBatis 기반 업무시스템. 엑셀/PDF 템플릿 출력, 이미지 뷰어 등.",
+  "project_portfolio_title": "개인 홈페이지",
+  "project_portfolio_desc": "Next.js + Tailwind로 만든 포트폴리오/블로그.",
+  "project_scripts_title": "데이터 스크립트 모음",
+  "project_scripts_desc": "파이썬으로 CSV/텍스트 전처리 유틸.",
+
+  "contact_title": "연락하기",
+  "contact_description": "유동환에게 연락하기",
+  "contact_intro": "프로젝트 제안, 협업 문의, 혹은 간단한 인사도 환영합니다 😊",
+  "contact_email_label": "이메일",
+  "contact_github_label": "GitHub",
+  "contact_linkedin_label": "LinkedIn",
+
+  "blog_title": "블로그",
+  "blog_search_placeholder": "검색어를 입력하세요...",
+  "blog_no_posts": "게시글이 없습니다."
+}

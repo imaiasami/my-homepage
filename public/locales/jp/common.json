@@ -1,0 +1,45 @@
+{
+  "home": "ホーム",
+  "about": "紹介",
+  "projects": "プロジェクト",
+  "blog": "ブログ",
+  "contact": "連絡先",
+
+  "home_title": "こんにちは 👋",
+  "home_subtitle": "開発者ユ・ドンファンの個人サイトへようこそ。",
+  "home_description": "ポートフォリオと学習記録を共有します。",
+  "view_projects": "プロジェクトを見る",
+  "go_to_blog": "ブログへ",
+
+  "about_title": "紹介",
+  "about_description": "ユ・ドンファンの紹介と技術スタック",
+  "about_name": "ユ・ドンファン (Yoo Donghwan)",
+  "about_intro": "Java/Struts2・MyBatis中心のバックエンド開発者。Next.jsフロントエンドを学習中。Excel・PDF出力や画像処理に関心あり。ランニングとバイオメカニクスが好き。",
+  "about_skills": "技術スタック",
+  "about_skill_1": "• 言語: Java, JavaScript, Python",
+  "about_skill_2": "• Web: Struts2, MyBatis, Next.js, Tailwind",
+  "about_skill_3": "• インフラ: Tomcat, AWS（基礎）",
+  "about_focus": "関心分野",
+  "about_focus_1": "• ドキュメントテンプレート: Apache POI / iTextによるExcel・PDF自動化",
+  "about_focus_2": "• 画像処理: 医療・業務用画像パイプライン",
+  "about_focus_3": "• フロント移行: JSP → Next.jsの学習",
+
+  "projects_title": "プロジェクト",
+  "project_kyusyo_title": "KyusyoWeb（社内）",
+  "project_kyusyo_desc": "Struts2 + MyBatisによる業務システム。Excel・PDFテンプレート出力、画像ビューアなど。",
+  "project_portfolio_title": "個人サイト",
+  "project_portfolio_desc": "Next.js + Tailwindで構築したポートフォリオ・ブログ。",
+  "project_scripts_title": "データスクリプト集",
+  "project_scripts_desc": "PythonによるCSV・テキストの前処理ユーティリティ。",
+
+  "contact_title": "連絡先",
+  "contact_description": "ユ・ドンファンへの連絡",
+  "contact_intro": "プロジェクト提案、協業の相談、または簡単な挨拶も歓迎です 😊",
+  "contact_email_label": "メール",
+  "contact_github_label": "GitHub",
+  "contact_linkedin_label": "LinkedIn",
+
+  "blog_title": "ブログ",
+  "blog_search_placeholder": "検索語を入力してください...",
+  "blog_no_posts": "投稿がありません。"
+}

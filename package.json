@@ -1,0 +1,38 @@
+{
+  "name": "my-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:gh": "cross-env NEXT_BASE_PATH=/my-homepage next build",
+    "deploy": "yarn build:gh && gh-pages -d out",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@next/mdx": "^15.5.6",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.11.1",
+    "i18next": "^25.6.0",
+    "marked": "^16.4.1",
+    "next": "15.5.6",
+    "next-i18next": "^15.4.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-i18next": "^16.1.0",
+    "rehype-pretty-code": "^0.14.1",
+    "shiki": "^3.13.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^10.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.6",
+    "fast-glob": "^3.3.3",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.3"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "blog": "Blog",
+  "contact": "Contact",
+
+  "home_title": "Hello 👋",
+  "home_subtitle": "Welcome to Yoo Donghwan's personal website.",
+  "home_description": "Sharing my portfolio and study notes.",
+  "view_projects": "View Projects",
+  "go_to_blog": "Go to Blog",
+
+  "about_title": "About",
+  "about_description": "Introduction and tech stack of Yoo Donghwan",
+  "about_name": "Yoo Donghwan",
+  "about_intro": "Backend developer focused on Java/Struts2·MyBatis, currently learning Next.js frontend. Interested in Excel/PDF automation and image processing. Enjoys running and biomechanics.",
+  "about_skills": "Tech Stack",
+  "about_skill_1": "• Languages: Java, JavaScript, Python",
+  "about_skill_2": "• Web: Struts2, MyBatis, Next.js, Tailwind",
+  "about_skill_3": "• Infrastructure: Tomcat, AWS (basic)",
+  "about_focus": "Focus & Interests",
+  "about_focus_1": "• Document templates: Excel/PDF automation using Apache POI / iText",
+  "about_focus_2": "• Image pipeline: Medical and business image processing",
+  "about_focus_3": "• Frontend migration: Learning JSP → Next.js transition",
+
+  "projects_title": "Projects",
+  "project_kyusyo_title": "KyusyoWeb (Internal)",
+  "project_kyusyo_desc": "Business system built with Struts2 + MyBatis. Includes Excel/PDF template output and image viewer.",
+  "project_portfolio_title": "Personal Website",
+  "project_portfolio_desc": "Portfolio/blog built with Next.js + Tailwind.",
+  "project_scripts_title": "Data Script Collection",
+  "project_scripts_desc": "Python utilities for CSV/text preprocessing.",
+
+  "contact_title": "Contact",
+  "contact_description": "Contact Yoo Donghwan",
+  "contact_intro": "Feel free to reach out for project proposals, collaboration, or just to say hello 😊",
+  "contact_email_label": "Email",
+  "contact_github_label": "GitHub",
+  "contact_linkedin_label": "LinkedIn",
+
+  "blog_title": "Blog",
+  "blog_search_placeholder": "Enter a search term...",
+  "blog_no_posts": "No posts available."
+}
