@@ -21,34 +21,34 @@ export default function Contact() {
                 <li>
                     📧 <span className="font-semibold">{t("contact_email_label")}:</span>{" "}
                     <a
-                        href="mailto:yoodonghwan.dev@gmail.com"
+                        href="mailto:ydonghwan299@gmail.com"
                         className="text-blue-600 hover:underline"
                     >
-                        yoodonghwan.dev@gmail.com
+                        ydonghwan299@gmail.com
                     </a>
                 </li>
 
                 <li>
                     💼 <span className="font-semibold">{t("contact_github_label")}:</span>{" "}
                     <a
-                        href="https://github.com/YooDonghwan"
+                        href="https://github.com/imaiasami"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline"
                     >
-                        github.com/YooDonghwan
+                        github.com/imaiasami
                     </a>
                 </li>
 
                 <li>
                     🌐 <span className="font-semibold">{t("contact_linkedin_label")}:</span>{" "}
                     <a
-                        href="https://www.linkedin.com/in/yoodonghwan/"
+                        href="https://www.linkedin.com/in/donghwanyoo0520/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline"
                     >
-                        linkedin.com/in/yoodonghwan
+                        linkedin.com/in/donghwanyoo0520
                     </a>
                 </li>
             </ul>
